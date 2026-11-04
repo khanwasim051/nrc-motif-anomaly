@@ -1,0 +1,8 @@
+{
+  "title": "NRC: camouflaged motif-anomaly benchmark and Node-Rhythm Conditional coupling (reproducibility package)",
+  "upload_type": "software",
+  "description": "Code, seeds, software versions and per-run outputs for the paper 'Training-Free Detection of Coordinated Motif Anomalies in Dynamic Graphs via Node-Rhythm Conditional Coupling'.",
+  "creators": [{"name": "Khan, Wasim", "affiliation": "Symbiosis Institute of Technology, Symbiosis International (Deemed University), Pune, India"}],
+  "license": "MIT",
+  "keywords": ["dynamic graphs", "anomaly detection", "temporal motifs", "coordinated behaviour", "benchmark"]
+}

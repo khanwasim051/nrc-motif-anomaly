@@ -1,0 +1,61 @@
+{"tag": "email_eu_anchored_0.1_0", "epochs": 1, "minutes": 10}
+{"tag": "email_eu_anchored_0.1_1", "epochs": 1, "minutes": 10}
+{"tag": "email_eu_anchored_0.1_2", "epochs": 1, "minutes": 10}
+{"tag": "email_eu_anchored_0.25_0", "epochs": 1, "minutes": 10}
+{"tag": "email_eu_anchored_0.25_1", "epochs": 1, "minutes": 11}
+{"tag": "email_eu_anchored_0.25_2", "epochs": 1, "minutes": 11}
+{"tag": "email_eu_joint_bursts_0.1_0", "epochs": 1, "minutes": 10}
+{"tag": "email_eu_joint_bursts_0.1_1", "epochs": 1, "minutes": 10}
+{"tag": "email_eu_joint_bursts_0.1_2", "epochs": 1, "minutes": 10}
+{"tag": "email_eu_joint_bursts_0.25_0", "epochs": 1, "minutes": 10}
+{"tag": "email_eu_joint_bursts_0.25_1", "epochs": 1, "minutes": 10}
+{"tag": "email_eu_joint_bursts_0.25_2", "epochs": 1, "minutes": 10}
+{"tag": "email_eu_periodic_0.1_0", "epochs": 1, "minutes": 10}
+{"tag": "email_eu_periodic_0.1_1", "epochs": 1, "minutes": 11}
+{"tag": "email_eu_periodic_0.1_2", "epochs": 1, "minutes": 11}
+{"tag": "email_eu_periodic_0.25_0", "epochs": 1, "minutes": 10}
+{"tag": "email_eu_periodic_0.25_1", "epochs": 1, "minutes": 10}
+{"tag": "email_eu_periodic_0.25_2", "epochs": 1, "minutes": 10}
+{"tag": "mathoverflow_anchored_0.1_0", "epochs": 1, "minutes": 48}
+{"tag": "mathoverflow_anchored_0.1_1", "epochs": 1, "minutes": 48}
+{"tag": "mathoverflow_anchored_0.1_2", "epochs": 1, "minutes": 49}
+{"tag": "mathoverflow_anchored_0.25_0", "epochs": 1, "minutes": 49}
+{"tag": "mathoverflow_joint_bursts_0.1_0", "epochs": 1, "minutes": 49}
+{"tag": "mathoverflow_joint_bursts_0.1_1", "epochs": 1, "minutes": 49}
+{"tag": "mathoverflow_joint_bursts_0.1_2", "epochs": 1, "minutes": 50}
+{"tag": "mathoverflow_periodic_0.1_0", "epochs": 1, "minutes": 55}
+{"tag": "mathoverflow_periodic_0.1_1", "epochs": 1, "minutes": 49}
+{"tag": "mathoverflow_periodic_0.1_2", "epochs": 1, "minutes": 53}
+{"tag": "mathoverflow_periodic_0.25_0", "epochs": 1, "minutes": 55}
+{"tag": "mathoverflow_periodic_0.25_1", "epochs": 1, "minutes": 51}
+{"tag": "mathoverflow_periodic_0.25_2", "epochs": 1, "minutes": 53}
+{"tag": "uci_anchored_0.1_0", "epochs": 10, "minutes": 16}
+{"tag": "uci_anchored_0.1_1", "epochs": 10, "minutes": 16}
+{"tag": "uci_anchored_0.1_2", "epochs": 10, "minutes": 14}
+{"tag": "uci_anchored_0.25_0", "epochs": 10, "minutes": 14}
+{"tag": "uci_anchored_0.25_1", "epochs": 10, "minutes": 14}
+{"tag": "uci_anchored_0.25_2", "epochs": 10, "minutes": 14}
+{"tag": "uci_joint_bursts_0.1_0", "epochs": 10, "minutes": 14}
+{"tag": "uci_joint_bursts_0.1_1", "epochs": 10, "minutes": 15}
+{"tag": "uci_joint_bursts_0.1_2", "epochs": 10, "minutes": 15}
+{"tag": "uci_joint_bursts_0.25_0", "epochs": 10, "minutes": 14}
+{"tag": "uci_joint_bursts_0.25_1", "epochs": 10, "minutes": 14}
+{"tag": "uci_joint_bursts_0.25_2", "epochs": 10, "minutes": 14}
+{"tag": "uci_periodic_0.1_0", "epochs": 10, "minutes": 15}
+{"tag": "uci_periodic_0.1_1", "epochs": 10, "minutes": 15}
+{"tag": "uci_periodic_0.1_2", "epochs": 10, "minutes": 15}
+{"tag": "uci_periodic_0.25_0", "epochs": 10, "minutes": 15}
+{"tag": "uci_periodic_0.25_1", "epochs": 10, "minutes": 16}
+{"tag": "uci_periodic_0.25_2", "epochs": 10, "minutes": 16}
+{"tag": "email_eu_joint_bursts_0.25_0", "epochs": 10, "minutes": 13.3, "device": "gpu_rtx3050"}
+{"tag": "email_eu_anchored_0.25_0", "epochs": 10, "minutes": 14.6, "device": "gpu_rtx3050"}
+{"tag": "mathoverflow_joint_bursts_0.25_0", "epochs": 10, "minutes": 29.4, "device": "gpu_rtx3050"}
+{"tag": "mathoverflow_anchored_0.25_0", "epochs": 10, "minutes": 28.5, "device": "gpu_rtx3050"}
+{"tag": "email_eu_joint_bursts_0.25_1", "epochs": 10, "minutes": 12.3, "device": "gpu_rtx3050"}
+{"tag": "email_eu_anchored_0.25_1", "epochs": 10, "minutes": 12.3, "device": "gpu_rtx3050"}
+{"tag": "mathoverflow_joint_bursts_0.25_1", "epochs": 10, "minutes": 28.7, "device": "gpu_rtx3050"}
+{"tag": "mathoverflow_anchored_0.25_1", "epochs": 10, "minutes": 29.2, "device": "gpu_rtx3050"}
+{"tag": "email_eu_joint_bursts_0.25_2", "epochs": 10, "minutes": 12.3, "device": "gpu_rtx3050"}
+{"tag": "email_eu_anchored_0.25_2", "epochs": 10, "minutes": 12.2, "device": "gpu_rtx3050"}
+{"tag": "mathoverflow_joint_bursts_0.25_2", "epochs": 10, "minutes": 27.9, "device": "gpu_rtx3050"}
+{"tag": "mathoverflow_anchored_0.25_2", "epochs": 10, "minutes": 28.8, "device": "gpu_rtx3050"}

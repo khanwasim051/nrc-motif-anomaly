@@ -1,0 +1,74 @@
+{
+ "email_eu|anchored|0.25|0": {
+  "anomalies": 150,
+  "placed": 2782,
+  "infeasible": 22,
+  "hash": "338c19f5ca4fb549"
+ },
+ "email_eu|anchored|0.25|1": {
+  "anomalies": 150,
+  "placed": 3364,
+  "infeasible": 17,
+  "hash": "587512a700ae5535"
+ },
+ "email_eu|anchored|0.25|2": {
+  "anomalies": 150,
+  "placed": 3676,
+  "infeasible": 28,
+  "hash": "71ec261c0bd932b1"
+ },
+ "email_eu|joint_bursts|0.25|0": {
+  "anomalies": 150,
+  "placed": 4870,
+  "infeasible": 8,
+  "hash": "7a2b6362ff4fbe56"
+ },
+ "email_eu|joint_bursts|0.25|1": {
+  "anomalies": 150,
+  "placed": 4873,
+  "infeasible": 7,
+  "hash": "900f5c5bcf381883"
+ },
+ "email_eu|joint_bursts|0.25|2": {
+  "anomalies": 150,
+  "placed": 5205,
+  "infeasible": 17,
+  "hash": "28b32c845eb2b48d"
+ },
+ "mathoverflow|anchored|0.25|0": {
+  "anomalies": 150,
+  "placed": 645,
+  "infeasible": 43,
+  "hash": "fd38539c87d60815"
+ },
+ "mathoverflow|anchored|0.25|1": {
+  "anomalies": 150,
+  "placed": 514,
+  "infeasible": 57,
+  "hash": "11c2817b64c3e89c"
+ },
+ "mathoverflow|anchored|0.25|2": {
+  "anomalies": 150,
+  "placed": 654,
+  "infeasible": 66,
+  "hash": "1a777b0dbdea03db"
+ },
+ "mathoverflow|joint_bursts|0.25|0": {
+  "anomalies": 150,
+  "placed": 1104,
+  "infeasible": 29,
+  "hash": "eec48f8623a0587d"
+ },
+ "mathoverflow|joint_bursts|0.25|1": {
+  "anomalies": 150,
+  "placed": 975,
+  "infeasible": 9,
+  "hash": "87c15232cbb11851"
+ },
+ "mathoverflow|joint_bursts|0.25|2": {
+  "anomalies": 150,
+  "placed": 1047,
+  "infeasible": 17,
+  "hash": "bbb5edf16f40e349"
+ }
+}

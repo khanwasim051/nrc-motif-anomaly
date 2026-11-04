@@ -1,0 +1,5 @@
+{"data": "uci", "nodes": 1899, "events": 59835, "span_days": 193.7, "triangles": 14319, "eligible": 2220}
+{"data": "email_eu", "nodes": 986, "events": 332334, "span_days": 803.9, "triangles": 105461, "eligible": 38130}
+{"data": "mathoverflow", "nodes": 24759, "events": 390441, "span_days": 2350.3, "triangles": 1403919, "eligible": 130750}
+{"data": "btc_alpha", "nodes": 3783, "events": 24186, "span_days": 1901.0, "triangles": 22153, "eligible": 0}
+{"data": "btc_otc", "nodes": 5881, "events": 35592, "span_days": 1903.3, "triangles": 33493, "eligible": 0}

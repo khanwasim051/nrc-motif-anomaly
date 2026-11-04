@@ -1,0 +1,15 @@
+{"data": "uci", "ratio": 0.01, "low edge multiplicity": 0.978, "synchronised edge birth": 1.0, "few common neighbours": 0.99, "low degree": 0.986}
+{"data": "uci", "ratio": 0.05, "low edge multiplicity": 0.98, "synchronised edge birth": 0.998, "few common neighbours": 0.99, "low degree": 0.981}
+{"data": "uci", "ratio": 0.1, "low edge multiplicity": 0.979, "synchronised edge birth": 0.996, "few common neighbours": 0.989, "low degree": 0.978}
+{"data": "btc_alpha", "ratio": 0.01, "low edge multiplicity": 0.977, "synchronised edge birth": 0.995, "few common neighbours": 0.997, "low degree": 0.994}
+{"data": "btc_alpha", "ratio": 0.05, "low edge multiplicity": 0.976, "synchronised edge birth": 0.995, "few common neighbours": 0.998, "low degree": 0.99}
+{"data": "btc_alpha", "ratio": 0.1, "low edge multiplicity": 0.975, "synchronised edge birth": 0.993, "few common neighbours": 0.998, "low degree": 0.991}
+{"data": "btc_otc", "ratio": 0.01, "low edge multiplicity": 0.943, "synchronised edge birth": 1.0, "few common neighbours": 0.998, "low degree": 0.99}
+{"data": "btc_otc", "ratio": 0.05, "low edge multiplicity": 0.943, "synchronised edge birth": 0.997, "few common neighbours": 0.998, "low degree": 0.991}
+{"data": "btc_otc", "ratio": 0.1, "low edge multiplicity": 0.943, "synchronised edge birth": 0.999, "few common neighbours": 0.998, "low degree": 0.991}
+{"data": "email_eu", "ratio": 0.01, "low edge multiplicity": 0.994, "synchronised edge birth": 0.992, "few common neighbours": 0.997, "low degree": 0.941}
+{"data": "email_eu", "ratio": 0.05, "low edge multiplicity": 0.993, "synchronised edge birth": 0.98, "few common neighbours": 0.995, "low degree": 0.936}
+{"data": "email_eu", "ratio": 0.1, "low edge multiplicity": 0.991, "synchronised edge birth": 0.96, "few common neighbours": 0.992, "low degree": 0.932}
+{"data": "mathoverflow", "ratio": 0.01, "low edge multiplicity": 0.963, "synchronised edge birth": 1.0, "few common neighbours": 1.0, "low degree": 0.998}
+{"data": "mathoverflow", "ratio": 0.05, "low edge multiplicity": 0.963, "synchronised edge birth": 0.999, "few common neighbours": 1.0, "low degree": 0.998}
+{"data": "mathoverflow", "ratio": 0.1, "low edge multiplicity": 0.963, "synchronised edge birth": 0.999, "few common neighbours": 1.0, "low degree": 0.998}

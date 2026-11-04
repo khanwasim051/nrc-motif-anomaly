@@ -1,0 +1,8 @@
+# Only needed to reproduce the SLADE baseline (separate environment recommended).
+# Versions of the CPU environment used for the UCI runs (Python 3.13.18). The Email-Eu and MathOverflow ten-epoch runs used
+# Python 3.10 with a CUDA-enabled torch wheel (cu124) on an NVIDIA RTX 3050 laptop GPU; install the matching CUDA wheel there.
+torch==2.15.0
+pandas==3.1.0
+numpy==2.5.4
+scikit-learn==1.9.1
+tqdm==4.70.1

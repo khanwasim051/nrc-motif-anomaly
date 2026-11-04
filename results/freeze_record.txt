@@ -1,0 +1,15 @@
+2026-11-02T04:57:16Z
+448639c552006ca9b62bb870db8df9e3fe7df96e33934192e92380357a0e11d8  coupling.py
+ec5cad57c68fcdf4e9c9a9bb024f7b3a3fee9e6e69f93ea8e3ced0c0dbcc22e2  coupling2.py
+37d1bb443d6eed2e0aaf4c883f3157f9c013a708da7aae2f14906a6527f73a6c  camouflage.py
+b71002a4127ca0136e0ba3a30aee4a052c4ea472c0b1b18ea89dcb38afd91275  motif_bench.py
+fea74b806841c6cc783e02bae2c3e92919f7540c02cc9b596b624f4164d54754  leakcheck.py
+7df2f2c643e2765e3155e9f1757b2d707a92f88bf7ebe9999c25f8e6acdd3786  leakcheck_fn.py
+df3d5672df22e46e0e9d7e73d4f2792adf7c5f943f43f77b4a01f67851971ead  overlap.py
+43cea7f45b31453a02f1b4f4db8e98083ed30ab8694a09e12d754a320e54500b  baselines_dyn.py
+coupling2.py:21:def chan_coincidence(motifs, ev, nidx, k=50, prior=5.0, scales=SCALES):
+coupling.py:18:SCALES = [60.0, 300.0, 900.0, 3600.0, 4 * 3600.0]
+2026-11-02T04:58:05Z motif_bench.py: added loader for 'radoslaw' only (no change to NRC, generator or baselines)
+2026-11-02T06:06:54Z coupling.py: added optional endpoint-wise activity constraint to the generator (endpoint_w); default path verified bit-identical; NRC (coupling2.py) unchanged
+2026-11-03T14:46:13Z coupling.py: generator boundary rule changed from clipping (new time >= birth + 1 s) to feasible-time sampling (birth < t' <= t_max, redraw up to 100 times, else keep the event; counters GEN, hook RECORD); NRC (coupling2.py) unchanged; all generator-dependent results rerun
+2026-11-04T03:28:24Z overlap.py: naive-rate scale now chosen separately for AUROC and AP (and for cleaned labels), as in all other scripts; ov_*.jsonl naive entries recomputed with naive_refresh.py (stored AUROC-selected values reproduced exactly first); NRC and all other detectors unchanged

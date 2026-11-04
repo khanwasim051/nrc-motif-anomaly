@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper."
+title: "NRC: camouflaged motif-anomaly benchmark and Node-Rhythm Conditional coupling"
+authors:
+  - family-names: Khan
+    given-names: Wasim
+    affiliation: "Symbiosis Institute of Technology, Symbiosis International (Deemed University), Pune, India"
+license: MIT
+repository-code: "https://github.com/khanwasim051/nrc-motif-anomaly"
+preferred-citation:
+  type: article
+  title: "Training-Free Detection of Coordinated Motif Anomalies in Dynamic Graphs via Node-Rhythm Conditional Coupling"
+  authors:
+    - family-names: Khan
+      given-names: Wasim
+  journal: "International Journal of Data Science and Analytics"
+  status: submitted

@@ -1,0 +1,46 @@
+{
+ "nrc_best": 11,
+ "nrc_tied": 1,
+ "w_naive": [
+  11,
+  3,
+  4
+ ],
+ "p_naive": "0.0665",
+ "w_if": [
+  18,
+  0,
+  0
+ ],
+ "p_if": "7.63e-06",
+ "if_gap_min": "0.034",
+ "if_gap_max": "0.170",
+ "act": {
+  "uci": {
+   "events_per_edge": "6",
+   "pool": "767",
+   "pool_per_active_day": "12.1"
+  },
+  "email_eu": {
+   "events_per_edge": "14",
+   "pool": "3,864",
+   "pool_per_active_day": "10.3"
+  },
+  "mathoverflow": {
+   "events_per_edge": "6",
+   "pool": "3,442",
+   "pool_per_active_day": "3.3"
+  },
+  "thiers13": {
+   "events_per_edge": "13",
+   "pool": "2,632",
+   "pool_per_active_day": "527.4"
+  },
+  "radoslaw": {
+   "events_per_edge": "16",
+   "pool": "3,576",
+   "pool_per_active_day": "18.3"
+  }
+ },
+ "mo_span": "2,350"
+}

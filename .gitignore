@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+code/SLADE/
+data/snap/*
+data/raw/*
+data/other/*
+!data/*/.gitkeep

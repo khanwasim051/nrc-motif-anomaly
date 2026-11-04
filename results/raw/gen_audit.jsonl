@@ -1,0 +1,5 @@
+{"data": "uci", "pool_edges": 19980, "empty_pool": 0.0, "pool_lt_k": 0.002102102102102102, "anom": 333, "joint_no_activity": 0.0, "periodic_fallback": 0.0012012012012012014}
+{"data": "email_eu", "pool_edges": 27000, "empty_pool": 0.0, "pool_lt_k": 0.0, "anom": 450, "joint_no_activity": 0.0, "periodic_fallback": 0.0}
+{"data": "mathoverflow", "pool_edges": 27000, "empty_pool": 0.0, "pool_lt_k": 0.00011111111111111112, "anom": 450, "joint_no_activity": 0.0, "periodic_fallback": 0.0}
+{"data": "radoslaw", "pool_edges": 27000, "empty_pool": 0.0, "pool_lt_k": 0.0, "anom": 450, "joint_no_activity": 0.0, "periodic_fallback": 0.00044444444444444447}
+{"data": "thiers13", "pool_edges": 27000, "empty_pool": 0.0, "pool_lt_k": 0.0, "anom": 450, "joint_no_activity": 0.0, "periodic_fallback": 0.1724444444444457}

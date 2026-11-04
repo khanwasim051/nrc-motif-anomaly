@@ -1,0 +1,5 @@
+{"data": "uci", "span_days": 194, "events_per_edge": 6.0, "pool": 767.0, "pool_per_active_day": 12.1}
+{"data": "email_eu", "span_days": 804, "events_per_edge": 14.0, "pool": 3864.0, "pool_per_active_day": 10.3}
+{"data": "mathoverflow", "span_days": 2350, "events_per_edge": 6.0, "pool": 3442.5, "pool_per_active_day": 3.3}
+{"data": "thiers13", "span_days": 4, "events_per_edge": 13.0, "pool": 2631.5, "pool_per_active_day": 527.4}
+{"data": "radoslaw", "span_days": 271, "events_per_edge": 16.0, "pool": 3576.0, "pool_per_active_day": 18.3}

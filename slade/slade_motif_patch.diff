@@ -1,0 +1,71 @@
+diff --git a/SLADE_main.py b/SLADE_main.py
+index ac6b784..6134227 100644
+--- a/SLADE_main.py
++++ b/SLADE_main.py
+@@ -1,3 +1,5 @@
++import json
++import os
+ import math
+ import logging
+ import time
+@@ -207,10 +209,26 @@ if __name__ == '__main__':
+             time_list.append(end-start)
+             logger.info("Epoch {} - mloss: {:.4f} val auc: {:.4f}".format(str(epoch), sum(m_loss)/len(m_loss), val_auc))
+             val_aucs.append(val_auc)
++            if os.environ.get('SLADE_DUMP'):
++                _base = os.environ['SLADE_DUMP'][:-4]
++                _lf = _base + '_loss.json'
++                _L = json.load(open(_lf)) if os.path.exists(_lf) else []
++                _L.append(dict(epoch=epoch + 1, loss=float(sum(m_loss) / len(m_loss)), train_sec=train_end - train_start)); json.dump(_L, open(_lf, 'w'))
++                _ck = [int(x) for x in os.environ.get('SLADE_CKPTS', '').split(',') if x]
++                if (epoch + 1) in _ck:
++                    dcl_tgn.set_neighbor_finder(full_ngh_finder); dcl_tgn.memory.__init_memory__()
++                    _, _fs, _ = eval_anomaly_node_detection(dcl_tgn, full_data, BATCH_SIZE, n_neighbors=NUM_NEIGHBORS, device=device)
++                    np.save(_base + '_ep{}.npy'.format(epoch + 1), _fs)
+ 
+         test_auc = val_aucs[-1]
+         logger.info("test auc: {:.4f}".format(test_auc))
+         test_aucs.append(test_auc)
++        if os.environ.get('SLADE_DUMP'):
++            # score every event of the stream with the trained model (self-supervised; labels unused)
++            dcl_tgn.set_neighbor_finder(full_ngh_finder)
++            dcl_tgn.memory.__init_memory__()          # replay the whole stream from a fresh memory
++            _, full_score, _ = eval_anomaly_node_detection(dcl_tgn, full_data, BATCH_SIZE, n_neighbors=NUM_NEIGHBORS, device=device)
++            np.save(os.environ['SLADE_DUMP'], full_score)
+ 
+         train_time_np = np.array(train_time_list)
+         logger.info('training time: {:.4f} std: {:.4f}'.format(np.mean(train_time_np),np.std(train_time_np)))
+diff --git a/evaluation/evaluation.py b/evaluation/evaluation.py
+index df4bc48..76b19cf 100644
+--- a/evaluation/evaluation.py
++++ b/evaluation/evaluation.py
+@@ -56,7 +56,10 @@ def eval_anomaly_node_detection(model, data, batch_size, n_neighbors, device,
+             else: # default
+                 pred_score[s_idx: e_idx] = (-(drift_score).reshape(-1).cpu().numpy()-(positive_memory_score).reshape(-1).cpu().numpy() + 2)/4
+                 
++        try:
+             auc_roc = roc_auc_score(data.labels, pred_score)
++        except ValueError:
++            auc_roc = float("nan")
+         return auc_roc, pred_score, _
+         
+       
+diff --git a/model/SLADE_TGN.py b/model/SLADE_TGN.py
+index 27f9260..bd55ac6 100644
+--- a/model/SLADE_TGN.py
++++ b/model/SLADE_TGN.py
+@@ -8,7 +8,13 @@ from modules.message_function import get_message_function
+ from modules.memory_updater import get_memory_updater
+ from modules.embedding_module import get_embedding_module
+ from model.time_encoding import TimeEncode, Fixed_time_encode
+-from torch_scatter import scatter
++def scatter(src, index, reduce='mean', dim=0):
++    # drop-in for torch_scatter.scatter (1-D index along dim 0)
++    n = int(index.max()) + 1 if index.numel() else 0
++    shape = (n,) + tuple(src.shape[1:])
++    out = torch.zeros(shape, dtype=src.dtype, device=src.device)
++    idx = index.view(-1, *([1] * (src.dim() - 1))).expand_as(src)
++    return out.scatter_reduce(0, idx, src, reduce='mean' if reduce == 'mean' else 'amax', include_self=False)
+ import torch.nn as nn
+ import torch.nn.functional as F
+ import pdb
