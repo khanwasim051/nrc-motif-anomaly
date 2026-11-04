@@ -13,7 +13,7 @@ rows = []
 for d in ["uci", "email_eu", "mathoverflow"]:
     for v in ["anchored", "joint_bursts", "periodic"]:
         for rho in [0.1, 0.25]:
-            rs = M[(d, v, rho)]; m = lambda k: round(float(np.mean([x[k] for x in rs])), 4)
+            rs = M[(d, v, rho)]; m = lambda k: float(np.mean([x[k] for x in rs]))
             rows.append([d, v, rho, m("structural max"), m("activity novelty"), m("best naive"), m("NRC"), m("best naive AP"), m("NRC AP"),
-                         round(float(np.mean(S[(d, v, rho)])), 3) if S[(d, v, rho)] else None])
+                         float(np.mean(S[(d, v, rho)])) if S[(d, v, rho)] else None])
 json.dump(rows, open("paper_rows.json", "w")); print(len(rows), "rows")
