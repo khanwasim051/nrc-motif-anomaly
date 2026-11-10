@@ -2,7 +2,39 @@
   "title": "NRC: camouflaged motif-anomaly benchmark and Node-Rhythm Conditional coupling (reproducibility package)",
   "upload_type": "software",
   "description": "Code, seeds, software versions and per-run outputs for the paper 'Training-Free Detection of Coordinated Motif Anomalies in Dynamic Graphs via Node-Rhythm Conditional Coupling'.",
-  "creators": [{"name": "Khan, Wasim", "affiliation": "Symbiosis Institute of Technology, Symbiosis International (Deemed University), Pune, India"}],
+  "creators": [
+    {
+      "name": "Khan, Wasim",
+      "affiliation": "Symbiosis Institute of Technology, Symbiosis International (Deemed University), Pune, India"
+    },
+    {
+      "name": "Wakchaure, Sujit R",
+      "affiliation": "Department of Computer Engineering, Amrutvahini College of Engineering, Sangamner, India"
+    },
+    {
+      "name": "Bombale, Girisha Ramhari",
+      "affiliation": "Department of Computer Engineering, SND College of Engineering and Research Centre, Babhulgaon Yeola, Nasik, India"
+    },
+    {
+      "name": "Mahajan, Anita Sachin",
+      "affiliation": "Department of Computer Engineering, Ajeenkya D Y Patil School of Engineering, Lohegaon, Pune, India"
+    },
+    {
+      "name": "Toley, Minal Chandrakant",
+      "affiliation": "Department of Computer Engineering, Ajeenkya D Y Patil School of Engineering, Lohegaon, Pune, India"
+    },
+    {
+      "name": "Khan, Vajid",
+      "affiliation": "Department of Computer Engineering, Genba Sopanrao Moze College of Engineering, Balewadi, Pune, India"
+    }
+  ],
   "license": "MIT",
-  "keywords": ["dynamic graphs", "anomaly detection", "temporal motifs", "coordinated behaviour", "benchmark"]
+  "keywords": [
+    "dynamic graphs",
+    "anomaly detection",
+    "temporal motifs",
+    "coordinated behaviour",
+    "benchmark"
+  ],
+  "version": "v1.0"
 }

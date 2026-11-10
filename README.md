@@ -105,7 +105,7 @@ To rebuild tables and figures from our outputs without re-running experiments, c
 | Naive-rate entries of `ov_*.jsonl` with the per-metric oracle scale (replays the instances without the other detectors; checks the stored values first) | `python naive_refresh.py G ov_G.jsonl ov_G_new.jsonl` | `ov_*.jsonl` |
 | Monte Carlo resampling pools: empty post-birth pools, draws with replacement, local windows below k (Sec. 6.3, 7.9) | `python pool_audit.py G pool_audit.jsonl` | `pool_audit.jsonl` |
 | Boundary audit: new times inside the window, infeasible share (Sec. 4.2) | `python clip_audit.py G` | `clip_audit.jsonl` |
-| SLADE run times (Sec. 7.7) | `python assemble_slade.py OUTDIR slade_parts results/slade_ckpt_v2.jsonl slade_progress.log results/run_gpu3_log.txt` | `slade_runtime.jsonl`; logs in `results/logs/` |
+| SLADE run times (Sec. 7.7) | `python assemble_slade.py OUTDIR slade_parts slade_ckpt_v2.jsonl ../results/logs/slade_progress.log ../results/logs/run_gpu3_log.txt`, where `slade_parts/` and `slade_ckpt_v2.jsonl` are the outputs of your own SLADE runs (CPU and GPU) | `slade_runtime.jsonl` (assembled outputs: `slade_ck_uci.jsonl`, `slade_ck_other.jsonl`); logs in `results/logs/` |
 
 Approximate CPU time with one core per graph: main table 5-15 min, baselines 10-40 min, overlap 20-60 min,
 calibration 10-30 min, randomisation null 10-20 min, coordination-window sweep 20-60 min, ablation 30-90 min.
