@@ -5,27 +5,27 @@
   "creators": [
     {
       "name": "Khan, Wasim",
-      "affiliation": "Symbiosis Institute of Technology, Symbiosis International (Deemed University), Pune, India"
-    },
-    {
-      "name": "Wakchaure, Sujit R",
-      "affiliation": "Department of Computer Engineering, Amrutvahini College of Engineering, Sangamner, India"
-    },
-    {
-      "name": "Bombale, Girisha Ramhari",
-      "affiliation": "Department of Computer Engineering, SND College of Engineering and Research Centre, Babhulgaon Yeola, Nasik, India"
-    },
-    {
-      "name": "Mahajan, Anita Sachin",
-      "affiliation": "Department of Computer Engineering, Ajeenkya D Y Patil School of Engineering, Lohegaon, Pune, India"
-    },
-    {
-      "name": "Toley, Minal Chandrakant",
-      "affiliation": "Department of Computer Engineering, Ajeenkya D Y Patil School of Engineering, Lohegaon, Pune, India"
+      "affiliation": "Symbiosis Institute of Technology, Symbiosis International (Deemed) University, Pune, Maharashtra, India"
     },
     {
       "name": "Khan, Vajid",
-      "affiliation": "Department of Computer Engineering, Genba Sopanrao Moze College of Engineering, Balewadi, Pune, India"
+      "affiliation": "Department of Computer Engineering, Genba Sopanrao Moze College of Engineering, Pune, Maharashtra, India"
+    },
+    {
+      "name": "Shahbad, Alfiya Abid",
+      "affiliation": "Department of Artificial Intelligence, Vishwakarma University, Pune, Maharashtra, India"
+    },
+    {
+      "name": "Kumar, Neelam Labhade",
+      "affiliation": "Department of Computer Science Engineering, Shree Ramchandra College of Engineering, Pune, India"
+    },
+    {
+      "name": "Deshmukh, Suruchi",
+      "affiliation": "Department of Computer Science and Engineering, MIT ADT University, Pune, Maharashtra, India"
+    },
+    {
+      "name": "Kale, Rashmi B.",
+      "affiliation": "Department of Computer Engineering, Vishwakarma Institute of Technology, Pune, Maharashtra, India"
     }
   ],
   "license": "MIT",

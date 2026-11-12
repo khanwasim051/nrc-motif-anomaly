@@ -4,22 +4,22 @@ title: "NRC: camouflaged motif-anomaly benchmark and Node-Rhythm Conditional cou
 authors:
   - family-names: Khan
     given-names: Wasim
-    affiliation: "Symbiosis Institute of Technology, Symbiosis International (Deemed University), Pune, India"
-  - family-names: Wakchaure
-    given-names: Sujit R
-    affiliation: "Department of Computer Engineering, Amrutvahini College of Engineering, Sangamner, India"
-  - family-names: Bombale
-    given-names: Girisha Ramhari
-    affiliation: "Department of Computer Engineering, SND College of Engineering and Research Centre, Babhulgaon Yeola, Nasik, India"
-  - family-names: Mahajan
-    given-names: Anita Sachin
-    affiliation: "Department of Computer Engineering, Ajeenkya D Y Patil School of Engineering, Lohegaon, Pune, India"
-  - family-names: Toley
-    given-names: Minal Chandrakant
-    affiliation: "Department of Computer Engineering, Ajeenkya D Y Patil School of Engineering, Lohegaon, Pune, India"
+    affiliation: "Symbiosis Institute of Technology, Symbiosis International (Deemed) University, Pune, Maharashtra, India"
   - family-names: Khan
     given-names: Vajid
-    affiliation: "Department of Computer Engineering, Genba Sopanrao Moze College of Engineering, Balewadi, Pune, India"
+    affiliation: "Department of Computer Engineering, Genba Sopanrao Moze College of Engineering, Pune, Maharashtra, India"
+  - family-names: Shahbad
+    given-names: Alfiya Abid
+    affiliation: "Department of Artificial Intelligence, Vishwakarma University, Pune, Maharashtra, India"
+  - family-names: Kumar
+    given-names: Neelam Labhade
+    affiliation: "Department of Computer Science Engineering, Shree Ramchandra College of Engineering, Pune, India"
+  - family-names: Deshmukh
+    given-names: Suruchi
+    affiliation: "Department of Computer Science and Engineering, MIT ADT University, Pune, Maharashtra, India"
+  - family-names: Kale
+    given-names: Rashmi B.
+    affiliation: "Department of Computer Engineering, Vishwakarma Institute of Technology, Pune, Maharashtra, India"
 version: v1.0
 license: MIT
 repository-code: "https://github.com/khanwasim051/nrc-motif-anomaly"
@@ -29,15 +29,15 @@ preferred-citation:
   authors:
     - family-names: Khan
       given-names: Wasim
-    - family-names: Wakchaure
-      given-names: Sujit R
-    - family-names: Bombale
-      given-names: Girisha Ramhari
-    - family-names: Mahajan
-      given-names: Anita Sachin
-    - family-names: Toley
-      given-names: Minal Chandrakant
     - family-names: Khan
       given-names: Vajid
+    - family-names: Shahbad
+      given-names: Alfiya Abid
+    - family-names: Kumar
+      given-names: Neelam Labhade
+    - family-names: Deshmukh
+      given-names: Suruchi
+    - family-names: Kale
+      given-names: Rashmi B.
   journal: "International Journal of Data Science and Analytics"
   status: submitted
